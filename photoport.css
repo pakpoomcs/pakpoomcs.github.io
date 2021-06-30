@@ -44,11 +44,11 @@ nav {
 }
 
 nav div {
-    min-width: 70px;
-    width: 15%;
+    min-width: 80px;
+    width: auto;
     height: auto;
     background-color: salmon;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -159,7 +159,7 @@ img {
 
 /* Next part is for >1024px wide screen */
 
-@media (min-width: 850px) {
+@media (min-width: 900px) {
     nav {
         max-width: 60%;
         flex-direction: row;
