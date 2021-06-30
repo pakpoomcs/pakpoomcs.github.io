@@ -16,8 +16,6 @@ body {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.4150035014005602) 0%, rgba(255, 247, 246, 0.3337710084033614) 38%, rgba(255, 216, 212, 0.5858718487394958) 100%);
 }
 
-
-
 header {
     color: rgb(255, 108, 92);
     text-align: center;
@@ -66,7 +64,11 @@ nav div:nth-of-type(3) {
 }
 
 nav div:nth-of-type(4) {
-    min-width: 100px;
+    min-width: 110px;
+}
+
+nav div:nth-of-type(5) {
+    min-width: 105px;
 }
 
 nav div:hover {
@@ -172,14 +174,12 @@ img {
         box-sizing: border-box;
         padding: 0.5% 3%;
     }
-    
-    nav div:nth-of-type(3){
-    width: 150px;
-    }
-
-    nav div:nth-of-type(4){
+    nav div:nth-of-type(3) {
         width: 150px;
-        }
+    }
+    nav div:nth-of-type(4) {
+        width: 150px;
+    }
     section {
         width: 95%;
         flex-direction: row;
