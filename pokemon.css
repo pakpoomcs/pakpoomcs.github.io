@@ -1,0 +1,23 @@
+.pokemon {
+    display: inline-block;
+    text-align: center;
+    border: 1px rgba(0, 0, 0, 0.144) solid;
+    margin: 5px 5px;
+    width: auto;
+    transition: 100ms;
+    background-color: white;
+}
+
+.pokemon img {
+    display: block;
+}
+
+.pokemon:hover {
+    box-shadow: 10px 10px;
+    transform: translate(-10px, -10px);
+}
+
+.pokemon:active {
+    transform: none;
+    box-shadow: none;
+}
