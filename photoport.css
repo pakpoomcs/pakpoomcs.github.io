@@ -16,6 +16,12 @@ body {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.4150035014005602) 0%, rgba(255, 247, 246, 0.3337710084033614) 38%, rgba(255, 216, 212, 0.5858718487394958) 100%);
 }
 
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
 header {
     color: rgb(255, 108, 92);
     text-align: center;
